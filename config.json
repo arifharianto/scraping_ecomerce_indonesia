@@ -1,0 +1,17 @@
+{
+    "tokopedia" : {
+        "card-data" : "[data-testid='master-product-card']",
+        "name" : "[data-testid='spnSRPProdName']",
+        "link" : "a[href]",
+        "price" : "[data-testid='spnSRPProdPrice']",
+        "location" : "[data-testid='spnSRPProdTabShopLoc']",
+        "thumb" : "[data-testid='imgSRPProdMain']",
+        "seller" : ".prd_link-shop-name",
+        "sold" : ".prd_label-integrity"
+    },
+    "shopee" : {
+        "card-data" : "[data-sqe='item']",
+        "name" : "[data-sqe='name']",
+        "link" : "[data-sqe='link']"
+    }
+}
